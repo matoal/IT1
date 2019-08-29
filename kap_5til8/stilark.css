@@ -7,3 +7,34 @@ body{
 p{
   font-size: 90px;
 }
+ul li{
+  list-style-type: none;
+  background-color: purple;
+  border-radius: 5px;
+  margin: 5px;
+  width: 150px;
+  padding: 5px;
+}
+ul li:hover{
+  background-color: green;
+}
+a:visited{
+  color:blue;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+}
+
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;;
+}
+th, td{
+  padding: 5px;
+}
+th{
+  background-color: green;
+}
