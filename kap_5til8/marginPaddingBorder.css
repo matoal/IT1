@@ -1,0 +1,18 @@
+body{
+    display: flex;
+}
+div{
+  width:200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px dotted black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.forste{
+  background-color: green;
+}
+.andre{
+  background-color: blue;
+}
