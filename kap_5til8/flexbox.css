@@ -1,0 +1,25 @@
+.innpakning{
+  width: 80%;
+  background-color: grey;
+  height: 600px;
+}
+
+.boks{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.liten{
+  flex: 1;
+}
+.middels{
+  flex: 2;
+}
+.stor{
+  flex: 3;
+}
+.rad{
+  display: flex;
+}
