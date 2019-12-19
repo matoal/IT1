@@ -1,2 +1,2 @@
-<p> Dette er min lille meny<p>
+<p> Dette er min lille meny.... <p>
   <br>

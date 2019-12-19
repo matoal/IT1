@@ -5,6 +5,7 @@
     <title>Sende Skjema</title>
   </head>
   <body>
+    <?php include "meny.php" ?>
     <form action="skjemaMotta.php" method="post">
       Navn:
       <input type="text" name="dittNavn">

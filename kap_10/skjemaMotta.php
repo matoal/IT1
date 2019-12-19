@@ -5,6 +5,7 @@
     <title>Motta Skjema</title>
   </head>
   <body>
+    <?php include "meny.php" ?>
     <?php
       if (isset($_POST["sendinn"])) {
         $navn = $_POST["dittNavn"];
