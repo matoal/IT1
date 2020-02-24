@@ -2,7 +2,7 @@
 <html lang="no" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Vi mottar dyret og det blir registrert i databasen</title>
+    <title>Vi mottar eieren og det blir registrert i databasen</title>
   </head>
   <body>
     <?php
