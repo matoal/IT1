@@ -10,7 +10,7 @@
       $tjener = "localhost";
       $brukernavn = "root";
       $passord = "";
-      $database = "DyrDyrlege";
+      $database = "dyrdyrlege";
 
       // Opprette tilkobling
       $kobling = new mysqli($tjener, $brukernavn, $passord, $database);
