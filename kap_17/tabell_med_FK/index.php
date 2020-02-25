@@ -5,7 +5,7 @@
     <title>Legge til et nytt dyr</title>
   </head>
   <body>
-    <form action="insert.html" method="post">
+    <form action="insert.php" method="post">
       Navn: <input type="text" name="navn"><br>
       Art: <input type="text" name="art"><br>
       Fødselsår: <input type="text" name="aar"><br>
