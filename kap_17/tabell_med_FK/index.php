@@ -9,7 +9,19 @@
       Navn: <input type="text" name="navn"><br>
       Art: <input type="text" name="art"><br>
       Fødselsår: <input type="text" name="aar"><br>
-      Eier_id: <input type="text" name="eier_id"><br>
+      <select name="eier_id">
+        <?php
+          include "kobling.php";
+          $sql = "SELECT fornavn, etternavn, eier_id FROM eier ORDER BY fornavn";
+          $resultat=$kobling->query($sql);
+          while ($rad=$resultat->fetch_assoc()) {
+            $fornavn = $rad["fornavn"];
+            $etternavn = $rad["etternavn"];
+            $eier_id = $rad["eier_id"];
+            echo "<option value=$eier_id>$fornavn $etternavn </option>";
+          }
+         ?>
+      </select>
       <input type="submit" name="registrer" value="Registrer dyr">
     </form>
   </body>
